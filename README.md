@@ -86,7 +86,7 @@ rtc jailbreak --target claude # Quick mode for specific model
 Techniques are identified as `tactic:technique`:
 
 - `encoding:base64`
-- `persona:dan`
+- `persona:expert`
 - `framing:hypothetical`
 - `agentic:tool_poisoning`
 

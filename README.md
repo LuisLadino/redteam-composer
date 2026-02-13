@@ -116,6 +116,16 @@ Techniques are identified as `tactic:technique`:
 - `agentic` - RAG poisoning, tool poisoning
 - `protocol` - MCP exploits, injection
 
+## Research Basis
+
+Techniques are mapped to industry frameworks:
+- **OWASP LLM Top 10 (2025)** - Prompt injection, jailbreaking categories
+- **MITRE ATLAS** - Adversarial ML threat matrix
+
+Each technique includes research citations (academic papers, security blogs, tool implementations). Combination recommendations come from documented synergies in the research.
+
+See `CONTRIBUTING.md` for the full schema and citation format.
+
 ## Adding Techniques
 
 Techniques are YAML files in `src/redteam_composer/taxonomy/techniques/`:
